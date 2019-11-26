@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<heading>
+  <h1> Find National Parks in your area. </h1>
+</heading>
+
+<section id="input-links">
+  <form>
+<input type="text" value="Az" id="state-search"></br>
+<input type="number" value="10" id="max-results"></br>
+<input type="submit" value="submit" id="submit-button">
+</form>
+</section>
+
+<section id="results-container" class="hidden">
+<h3>State Parks</h3>
+<div id="error-message"> </div>
+<p> </p>
+</section>
+  
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
